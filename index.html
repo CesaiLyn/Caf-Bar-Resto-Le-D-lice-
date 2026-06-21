@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Le Délice - Restaurant</title>
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+    body{background:#faf7f2;color:#333}
+    header{background:url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1400&q=80') center/cover;height:90vh;color:white}
+    nav{display:flex;justify-content:space-between;padding:20px 10%;background:rgba(0,0,0,.5)}
+    nav a{color:white;text-decoration:none;margin-left:20px}
+    .hero{display:flex;flex-direction:column;justify-content:center;align-items:center;height:80%;text-align:center}
+    .hero h1{font-size:4rem}
+    .hero p{font-size:1.2rem;margin:20px 0}
+    .btn{background:#c0392b;color:white;padding:12px 25px;border-radius:5px;text-decoration:none}
+    section{padding:70px 10%}
+    h2{text-align:center;margin-bottom:30px;color:#c0392b}
+    .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+    .card{background:white;padding:20px;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,.1)}
+    footer{background:#222;color:white;text-align:center;padding:25px}
+  </style>
+</head>
+<body>
+<header>
+<nav>
+<div><strong>Café Bar Resto Le Délice</strong></div>
+<div>
+<a href="#apropos">À propos</a>
+<a href="#menu">Menu</a>
+<a href="#contact">Contact</a>
+</div>
+</nav>
+<div class="hero">
+<h1>Bienvenue chez Le Délice</h1>
+<p>Une expérience culinaire unique et chaleureuse.</p>
+<a class="btn" href="#menu">Découvrir le menu</a>
+</div>
+</header>
+
+<section id="apropos">
+<h2>À propos</h2>
+<p>Le Délice est un restaurant qui propose des plats savoureux et préparés avec passion dont certains sont sur commande et aussi des boissons rafraîchissantes</p>
+</section>
+
+<section id="menu">
+<h2>Nos spécialités</h2>
+<div class="cards">
+<div class="card"><h3>Entrées</h3><p>Salades.</p></div>
+<div class="card"><h3>Plats</h3><p>Pâtes et de différentes sauces, spaghettis rouges et blancs, riz, couscous,etc.</p></div>
+<div class="card"><h3>Boisson</h3><p>Soft Drinks et bières.</p></div>
+<div class="card"><h3>Sur commande</h3><p>Riz de toutes sortes,kom,atiéké,etc.</p></div>
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<p><strong>Adresse :</strong> Agoè Carrefour Bleu</p>
+<p><strong>Téléphone :</strong> +228 90440068/ 97960351</p>
+<p><strong>Horaires :</strong> Mardi - Dimanche : 06h30 - 23h00</p>
+</section>
+
+<footer>
+<p>© 2026 Le Délice - Tous droits réservés.</p>
+</footer>
+</body>
+</html>
