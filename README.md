@@ -16,24 +16,4 @@ Ce site a été créé pour présenter le restaurant, son menu et ses informatio
 - Informations de contact
 - Design adapté aux ordinateurs et aux téléphones
 
-## 🛠️ Technologies utilisées
 
-- HTML5
-- CSS3
-
-## 🚀 Voir le site
-
-Le site est accessible à l'adresse suivante :
-
-**Ajoute ici le lien GitHub Pages de ton site une fois qu'il sera publié.**
-
-Exemple :
-
-`https://ton-nom-utilisateur.github.io/mon-restaurant`
-
-## 📁 Structure du projet
-
-```text
-mon-restaurant/
-├── index.html
-└── README.md
